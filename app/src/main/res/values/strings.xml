@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Prima Computer</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="textView1">LOGIN\n ADMINISTRATOR</string>
+    <string name="lblHead">Login</string>
+    <string name="txtUser">Masukkan username</string>
+    <string name="txtPass">Masukkan password</string>
+    <string name="btnLogin">Generate</string>
+    <string name="txtStatus">Kode Verifikasi Anda</string>
+    <string name="desc">gambar logo</string>
+    <string name="desc2">gambar logo</string>
+
+</resources>

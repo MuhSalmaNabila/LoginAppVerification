@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+    	android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:background="@drawable/bg"
+        android:focusable="true" 
+        android:focusableInTouchMode="true"
+  		xmlns:android="http://schemas.android.com/apk/res/android" xmlns:android1="http://schemas.android.com/apk/res/android">
+        
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"         
+            android:layout_marginTop="10dp"
+            android:background="#66ff5722"
+            android:gravity="center"
+            android:text="@+string/textView1"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="104dp"
+            android:layout_height="90dp"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:clickable="false"
+            android:contentDescription="@string/desc"
+            android:src="@drawable/prima"
+            android:scaleType="fitXY" />
+                      
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/txtStatus"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/mybutton"
+            android:bottomLeftRadius="60dp"
+            android:bottomRightRadius="60dp"
+            android:text="@+string/btnLogin"
+            android:topLeftRadius="60dp"
+            android:topRightRadius="60dp" />
+        
+        
+        <EditText
+            android:id="@+id/txtPass"
+            android:focusableInTouchMode="true" 
+            android:layout_width="270dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/btnLogin"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="21dp"
+            android:background="#80f0f8ff"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/txtPass"
+            android:minHeight="40dp"
+            android:singleLine="true"
+            android:inputType="textPassword"
+           />
+
+        <ImageView
+            android1:id="@+id/imageview2"
+            android1:layout_width="250dp"
+            android1:layout_height="30dp"
+            android1:layout_below="@+id/imageView1"
+            android1:layout_centerHorizontal="true"
+            android1:layout_marginTop="14dp"
+            android1:clickable="false"
+            android1:contentDescription="@string/desc"
+            android1:src="@drawable/prima2"
+            android:scaleType="fitXY" />
+
+        <EditText
+            android1:id="@+id/txtStatus"
+            android1:layout_width="250dp"
+            android1:layout_height="wrap_content"
+            android1:layout_alignLeft="@+id/imageview2"
+            android1:layout_alignParentBottom="true"
+            android1:layout_marginBottom="20dp"
+            android1:ems="10"
+            android1:enabled="false"
+            android1:gravity="center_horizontal|center"
+            android1:hint="@string/txtStatus"
+            android1:inputType="none" />
+
+        <EditText
+            android1:id="@+id/txtUser"
+            android1:layout_width="270dp"
+            android1:layout_height="40dp"
+            android1:layout_above="@+id/txtPass"
+            android1:layout_alignLeft="@+id/txtPass"
+            android1:layout_marginBottom="20dp"
+            android1:background="#80f0f8ff"
+            android1:ems="10"
+            android1:focusableInTouchMode="true"
+            android1:gravity="center"
+            android1:hint="@string/txtUser"
+            android1:inputType="text"
+            android1:minHeight="40dp"
+            android1:singleLine="true" >
+
+            
+        </EditText>
+       
+    </RelativeLayout>
+
